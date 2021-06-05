@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DeadMan</string>
+    <string-array
+        name="slownik">
+        <item>test</item>
+        <item>testy</item>
+        <item>tescik</item>
+        <item>ha</item>
+    </string-array>
+</resources>

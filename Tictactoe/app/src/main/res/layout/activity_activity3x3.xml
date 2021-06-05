@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity3x3">
+
+    <TableLayout
+        android:id="@+id/tableLayout3"
+        android:layout_width="184dp"
+        android:layout_height="183dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/b00"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:onClick="clickHandler"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/b01"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:onClick="clickHandler"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/b02"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:onClick="clickHandler"
+                android:text="-" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/b10"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:onClick="clickHandler"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/b11"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:onClick="clickHandler"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/b12"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:onClick="clickHandler"
+                android:text="-" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/b20"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:onClick="clickHandler"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/b21"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:onClick="clickHandler"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/b22"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:onClick="clickHandler"
+                android:text="-" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/gameinfo"
+        android:layout_width="86dp"
+        android:layout_height="32dp"
+        android:text="Gra w X/O"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1084868090630",
+    "firebase_url": "https://fir-chat-9236a-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "fir-chat-9236a",
+    "storage_bucket": "fir-chat-9236a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084868090630:android:f28aa974cdce3880f4dc87",
+        "android_client_info": {
+          "package_name": "com.example.firebasev2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1084868090630-rnjdiiv5b665q50soh09dgm8prsebe6u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm_DFsfVqocacle1lDtBAAf_Y-AdVXu8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1084868090630-rnjdiiv5b665q50soh09dgm8prsebe6u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
